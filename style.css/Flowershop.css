@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 .header{
     background-color:#f9eaed ;
     justify-content: space-between;
@@ -79,7 +81,7 @@ line-height: 30px; /* 166.667% */
     background-color: rgb(166, 244, 166);
     justify-content: space-between;
     display: flex;
-    padding: 70px 70px 0 70px;
+    padding: 70px 70px 70px 70px;
     font-family: Lato;
 font-size: 24px;
 font-style: normal;
@@ -104,23 +106,34 @@ line-height: 30px; /* 166.667% */
 .cup{
     margin-right: 20px; 
 }
-.backround{
-    background-image: url('images/Rectangle\ 9.png');
-    justify-content: center;
+.background{
+    background-image: url('images/Rectangle\ 9.png');  
     padding: 70px 70px 70px 70px;
     text-align: center;   
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200px
    }
-.footer{
-    background-color:#130004 ;
-    display: flex;
+   .footer-head{
     text-align: center;
-    padding: 70px 70px 0 70px;
-    margin: 20px; 
+    font-size: 24px;
+    padding: 20px 40px 0 40px;
+   }
+.footer-item{
+    background-color:#1a0207 ;
+    text-align: center;   
+}
+.footer-para{
+    color: rgb(201, 193, 193);
+    font-size: 15px;
+    line-height: 15px; 
+    flex-wrap: wrap;
+    padding: 0 30px 0 30px;
+}
+.footer-tail{
+    color: #ebdbde;
+    padding-bottom: 40px
 }
 .text-flower{
     color: #E55473;
