@@ -35,7 +35,7 @@ flex-shrink: 0;
     padding:0 140px 147px 140px;
 }
 .Featured{
-padding: 240px;
+padding: 100px;
 }
 .flowers{
     display: flex;
@@ -47,6 +47,7 @@ padding: 240px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     padding: 70px 70px 0 70px;
+    margin-right: 30px;
 
 }
 .dalia{
@@ -54,6 +55,7 @@ padding: 240px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     padding: 70px 70px 0 70px;
+    margin-right: 30px;
 }
 .rose{
     background-color: rgba(71, 125, 17, 0.15);
@@ -66,11 +68,35 @@ padding: 240px;
    justify-content: center;
     align-items: center;
     display: flex;
+    padding-right: 100px;
 }
 .Deal{
-    background-color:rgba(229, 84, 115, 0.05) ;
+    background-color: rgb(166, 244, 166);
     justify-content: space-between;
-    align-items: center;
     display: flex;
     padding: 70px 70px 0 70px;
+}
+.border margin{
+    margin: 0 600px 0 600px;
+}
+.web2{
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+.roses{
+    margin-right: 20px;
+}
+.kos{
+    margin-right: 20px;
+}
+.cup{
+    margin-right: 20px; 
+}
+.backround img{
+    background-image: ;
+    justify-content: center;
+    padding: 100px 0 50px 0;
+    height: 20px;
+    width: 10px;
 }
